@@ -2,46 +2,46 @@
 
 window.addEventListener('DOMContentLoaded', () => {
 
-    const swiper = new Swiper('.swiper', {
-        // Optional parameters
-        direction: 'vertical',
-        loop: true,
+    // const swiper = new Swiper('.swiper', {
+    //     // Optional parameters
+    //     direction: 'vertical',
+    //     loop: true,
       
-        // If we need pagination
-        pagination: {
-          el: '.swiper-pagination',
-        },
+    //     // If we need pagination
+    //     pagination: {
+    //       el: '.swiper-pagination',
+    //     },
       
-        // Navigation arrows
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
+    //     // Navigation arrows
+    //     navigation: {
+    //       nextEl: '.swiper-button-next',
+    //       prevEl: '.swiper-button-prev',
+    //     },
       
-        // And if we need scrollbar
-        scrollbar: {
-          el: '.swiper-scrollbar',
-        },
-      });
+    //     // And if we need scrollbar
+    //     scrollbar: {
+    //       el: '.swiper-scrollbar',
+    //     },
+    //   });
 
 
-});
+
 
 
 var swiper = new Swiper(".mySwiper", {
     // Отступы между слайдами
     spaceBetween: 20,
     // Количество показываемых слайдов
-    slidesPerView: 4,
+    slidesPerView: 3,
     // Loop - Бесконечные слайды 
     loop: true,
     // Speed - Скорость
     speed: 1000,
     // Autoplay - Автоматическая прокрутка слайдов, где speed - Скорость. 
-    autoplay: {
-      delay: 3000,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 3000,
+    //   disableOnInteraction: false,
+    // },
     // Элементы навигации
     // Стрелки
     navigation: {
@@ -54,7 +54,7 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true,
       type: 'bullets',
     },
-    // Мобилка
+    // Отображаемые слайды
     breakpoints: {
       320: {
         slidesPerView: 1.2,
@@ -87,3 +87,5 @@ var swiper = new Swiper(".mySwiper", {
     }
   }
   checkSlides();
+
+});
